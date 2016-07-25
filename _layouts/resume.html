@@ -39,75 +39,7 @@
 
       </header>
 
-      {% if site.resume_section_experience %}
-      <!-- begin Experience -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Experience</h2>
-        </header>
-
-        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Parsons Corporation</h3>
-          <h4 class="resume-item-details" itemprop="description">Splunk Team Lead &bull; Apr, 2016 &mdash; Present</h4>
-          <p class="resume-item-copy">Put some Parsons stuff here:</p>
-          <ul class="resume-item-list">
-            <li>Bullet</li>
-            <li>Bullet</li>
-            <li>Bullet</li>
-          </ul>
-          <p class="resume-item-copy">Maybe additional things here...</p>
-
-        </div><!-- end of resume-item -->
-
-        <!-- another resume item -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Advon Analytics</h3>
-          <h4 class="resume-item-details" itemprop="description">Managing Member &bull; Mar, 2016 &mdash; Present</h4>
-          <p class="resume-item-copy">Advon info...</p>
-
-        </div><!-- end of resume-item -->
-
-        <!-- by now you're getting the picture... -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Concanon</h3>
-          <h4 class="resume-item-details" itemprop="description">Principal Splunk Architect &bull; Mar, 2014 &mdash; Apr, 2016</h4>
-          <p class="resume-item-copy">As a Splunk consultant I am responsible for delivering highly scalable and manageable Splunk deployments according to customer requirements. In order to ensure a successful engagement I often employ skills ranging from Agile	project manager to Linux administrator to hostage negotiator.</p>
-
-        </div><!-- end of resume-item -->
-
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Southern Company</h3>
-          <h4 class="resume-item-details" itemprop="description">Senior Systems Analyst, Security &bull; Aug, 2012 &mdash; Mar, 2014</h4>
-          <p class="resume-item-copy">Responsible for monitoring of generation network security assets for connectivity, performance, and security events through the use of ArcSight, Cisco Security Manager, Tufin, and NetMRI. Other duties include disaster recovery, incident response, firewall and IPS management, and customer support.</p>
-
-        </div><!-- end of resume-item -->
-
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">USAF Network Operation Center</h3>
-          <h4 class="resume-item-details" itemprop="description">Informations Security Specialist &bull; Dec, 2010 &mdash; Aug, 2012</h4>
-          <p class="resume-item-copy">Supported global Air Force network security operations through Cisco PIX firewalls, Blue Coat web proxy management, DNS services, and security event management with Splunk.</p>
-
-        </div><!-- end of resume-item -->
-
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">USAF 232nd Combat Communications Squadron</h3>
-          <h4 class="resume-item-details" itemprop="description">Cyber Security Operations, Staff Sergeant, Air National Guard &bull; March, 2010 &mdash; Mar, 2013</h4>
-          <p class="resume-item-copy">Honorably discharged from Air National Guard after serving as Cyber Security Operations technician accountable for securing squadron network assets while both deployed and state-side.</p>
-
-        </div><!-- end of resume-item -->
-
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">US Marine Corps / US Marine Corps Reserves</h3>
-          <h4 class="resume-item-details" itemprop="description">Functional Systems Administrator/Logistics &bull; Aug, 2000 &mdash; Mar, 2010</h4>
-          <p class="resume-item-copy">Served as a Functional Systems Administrator responsible for maintaining a logistics network allowing for the acquisition, delivery, and tracking of repair parts in country and abroad for more than 20 million dollars in assets.</p>
-
-        </div><!-- end of resume-item -->
-
-      </section>
-      <!-- end Experience -->
-      {% endif %}
+      {% include experience.html %}
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
