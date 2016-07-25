@@ -11,9 +11,9 @@ sass:
 # Resume settings
 resume_avatar:                  "false"
 resume_name:                    "James A. Deer Jr."
-resume_title:                   "Super Cool Guy"
+resume_title:                   "MacGyver Taught Me Everything I Know"
 resume_contact_email:
-  "jd@jamesdeer.net?subject=Inquiry%20from%20online%20resume"
+  "resume@jamesdeer.net?subject=Inquiry%20from%20online%20resume"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
